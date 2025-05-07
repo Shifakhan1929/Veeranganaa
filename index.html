@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive navbar</title>
+    <title>Veerangana</title>
     <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
@@ -11,22 +11,52 @@
     <nav>
         <ul class="sidebaar">
             <li onclick = hideSidebaar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Details</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="detail.html">Details</a></li>
             <li><a href="#">Features</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Contact Us</a></li>
+          
         </ul>
+    
         <ul>
-            <li class="bold"><a href="#">Veerangana</a></li>
-            <li class="hideOnMobile"><a href="#">Home</a></li>
-            <li class="hideOnMobile"><a href="#">Details</a></li>
-            <li class="hideOnMobile"><a href="#">Features</a></li>
-            <li class="hideOnMobile"><a href="#">About Us</a></li>
-            <li class="hideOnMobile"><a href="#">Contact Us</a></li>
-            <li class="menu-button" onclick = showSidebaar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+         <div class="left-nav">
+            <li>
+                <img src="image/bg/logoo.jpg" alt="">
+              </li>
+                <li class="bold"><a href="#">Veerangana</a></li>
+         </div>
+         <div class="right-nav">
+          <li class="hideOnMobile"><a href="index.html">Home</a></li>
+          <li class="hideOnMobile"><a href="detail.html">Details</a></li>
+          <li class="hideOnMobile"><a href="detail.html#buttons">Features</a></li>
+          <li class="hideOnMobile"><a href="#">About Us</a></li>
+          <li class="hideOnMobile"><a href="#">Contact Us</a></li>
+          <li class="hideOnMobile"><a href="donate.html" target="_self"><button class="help-btn">Donate</button></a></li>
+          <li class="menu-button" onclick = showSidebaar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+         </div>
         </ul>
     </nav>
+
+    <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <h1>
+             Veerangana
+            </h1>
+            <h2>The Women Safety App</h2>
+            <p>
+                In a world where safety is a priority, Veerangna stands as your digital guardian — a powerful app built to protect, alert, and empower you in real-time.
+            </p>
+           <h3>आपकी सुरक्षा, हमारी ज़िम्मेदारी!</h3>
+                
+
+
+           <a href="detail.html" target="_self"> <button class="help-btn1">Know More  <i class="fa-solid fa-arrow-right"></i></button></a>
+          </div>
+         
+        </div>
+      </section>
 
     <script>
         function showSidebaar(){
