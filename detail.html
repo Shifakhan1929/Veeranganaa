@@ -4,133 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
+    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
 
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            
-        }
     
-       
-   
-        
-.text{
-    min-height: 100vh;
-    background-image: url(image/bg/3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.text{
-    color: #F9DBBD;
-
-}
-.main_text{
-    padding-top: 50px;
-    padding-left: 50px;
-}
-
-.main_text button{
-    font-size: 3rem;
-    font-weight: 700;
-    color: #450920;
-    background-color: #F9DBBD;
-    border: none;
-    border-radius: 5px;
-    padding: 3px 20px;
-    font-style: inherit;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-   
-   
-}
-.main_text p{
-max-width: 50vw;
-font-size: 1.2rem;
-text-align: start;
-margin-top: 50px;
-
-}
-#buttons {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  gap: 20px;
-}
-
-/* Common style for both */
-.emg-button1, .emg-button2 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 20px;
-  background-color: #F9DBBD;
-  color: #000000;
-  border-radius: 10px;
-  width: 68vw;
-  gap: 20px;
-
-}
-
-/* Push to left */
-.emg-button1 {
-  align-self: flex-start;
-  margin-left: 100px;
-}
-
-/* Push to right */
-.emg-button2 {
-  align-self: flex-end;
-  margin-right: 100px;
-}
-
-.emg-button1 img,
-.emg-button2 img {
-  width: 40%;
-  height: 200px;
-  border-radius: 10px;
-}
-
-.heading{
-    display: flex;
-    flex-direction: column;
- 
-
-}
-
-.heading div{
-    color: brown;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-h2{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #450920;
-    background-color: #F9DBBD;
-    border: none;
-    border-radius: 5px;
-    padding: 3px 4px;
-    font-style: inherit;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-    margin-bottom: 30px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-
-    </style>
-</head>
 <body>
+
+    <div id="navbar"></div>
+    
     <div class="text">
        <div class="main_text">
         <h1 class=""><button>The Women Safety App</button></h1>
@@ -196,5 +78,165 @@ h2{
 
         </div>
     </section>
+
+
+
+
+    <section class="app-download">
+        <div class="download-content">
+          <div class="text-section">
+            <h2>आपकी सुरक्षा, हमारी ज़िम्मेदारी!</h2>
+            <p>Take the first step towards enhanced personal safety. Our app is available on iOS and Android platforms.</p>
+            <div class="store-buttons">
+              <!-- <a href="#" class="app-store">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Available_on_the_App_Store_(black)_SVG.svg" alt="App Store">
+              </a>
+              <a href="#" class="google-play">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg" alt="Google Play">
+              </a> -->
+              <a href="#"><button>Download Here <i class="fa-regular fa-circle-down"></i></button></a>
+            </div>
+            <div class="rating">
+              <span class="stars">⭐⭐⭐⭐⭐</span>
+              <span class="reviews">4.8/5 from 10,000+ reviews</span>
+            </div>
+          </div>
+          <div class="image-section">
+            <img src="image/bg/download.png" alt="App Screenshot">
+          </div>
+        </div>
+      </section>
+
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    /* CSS below */
+  </style>
+</head>
+<body>
+  <section class="contact-section">
+    <h2><i class="fas fa-headset"></i> <span>Get In <strong>Touch</strong></span></h2>
+    <div class="contact-container">
+      <div class="contact-image">
+        <img src="image/bg/logoo.jpg" alt="Contact Illustration" />
+      </div>
+      <form class="contact-form">
+        <div class="form-group">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <i class="fas fa-phone"></i>
+          <input type="tel" placeholder="Phone" required>
+        </div>
+        <div class="form-group">
+          <i class="fas fa-comment-dots"></i>
+          <textarea placeholder="Message" required></textarea>
+        </div>
+        <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
+
+      
+
+    <footer id="main-footer" class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>Veerangana</h3>
+            <p>Empowering women through safety resources, community support, and emergency assistance.</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">details</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">Safety Guides</a></li>
+              <li><a href="#">Legal Resources</a></li>
+              <li><a href="#">Support Groups</a></li>
+              <li><a href="#">Self-defense</a></li>
+              <li><a href="#">Emergency Help</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Newsletter</h4>
+            <p>Subscribe to receive safety tips and updates.</p>
+            <div class="newsletter">
+              <input type="email" placeholder="Your email" />
+              <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      
+        <hr />
+      
+        <div class="footer-bottom">
+          <p>&copy; 2025 Veerangana. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      
+        <div class="emergency-bar">
+          <strong>Emergency Numbers</strong>
+          <div class="emergency-buttons">
+            <div><i class="fas fa-phone-alt"></i> Emergency: 911</div>
+            <div><i class="fas fa-phone-alt"></i> Domestic Violence: 1-800-799-7233</div>
+            <div><i class="fas fa-phone-alt"></i> Crisis Text Line: Text HOME to 741741</div>
+          </div>
+          
+        </div>
+      </footer>
+
+      <script>
+        fetch('navbar.html')
+          .then(res => res.text())
+          .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+          });
+      </script>
+    
+      <!-- Your existing showSidebaar() and hideSidebaar() scripts -->
+      <script>
+        function showSidebaar() {
+          document.querySelector('.sidebaar').style.display = 'block';
+        }
+        function hideSidebaar() {
+          document.querySelector('.sidebaar').style.display = 'none';
+        }
+      </script>
+      
 </body>
 </html>

@@ -6,16 +6,17 @@
     <title>Veerangana</title>
     <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
+    <!-- <nav>
         <ul class="sidebaar">
             <li onclick = hideSidebaar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="detail.html">Details</a></li>
             <li><a href="#">Features</a></li>
+            <li><a href="#">Data</a></li>
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
           
         </ul>
     
@@ -30,13 +31,14 @@
           <li class="hideOnMobile"><a href="index.html">Home</a></li>
           <li class="hideOnMobile"><a href="detail.html">Details</a></li>
           <li class="hideOnMobile"><a href="detail.html#buttons">Features</a></li>
+          <li class="hideOnMobile"><a href="#">Data</a></li>
           <li class="hideOnMobile"><a href="#">About Us</a></li>
-          <li class="hideOnMobile"><a href="#">Contact Us</a></li>
           <li class="hideOnMobile"><a href="donate.html" target="_self"><button class="help-btn">Donate</button></a></li>
           <li class="menu-button" onclick = showSidebaar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
          </div>
         </ul>
-    </nav>
+    </nav> -->
+    <div id="navbar"></div>
 
     <section class="hero">
         <div class="container hero-content">
@@ -68,6 +70,24 @@
              const sidebaar = document. querySelector('.sidebaar')
             sidebaar.style.display = 'none'
         }
+
+       
+    fetch('navbar.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      });
+  </script>
+
+  <!-- Your existing showSidebaar() and hideSidebaar() scripts -->
+  <script>
+    function showSidebaar() {
+      document.querySelector('.sidebaar').style.display = 'block';
+    }
+    function hideSidebaar() {
+      document.querySelector('.sidebaar').style.display = 'none';
+    }
+  
     </script>
 </body>
 </html>
