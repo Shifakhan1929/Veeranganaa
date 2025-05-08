@@ -143,7 +143,7 @@ nav a:hover{
 
 .text{
 min-height: 100vh;
-background-image: url(image/bg/3.png);
+background-image: url(image/bg/shif.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -174,17 +174,48 @@ box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 
 }
 .main_text p{
-max-width: 50vw;
+max-width: 40vw;
 font-size: 1.2rem;
 text-align: start;
 margin-top: 50px;
+line-height: 30px;
 
 }
+.download-btn button{
+  
+    background-color: #450920;
+    color: #F9DBBD;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .download-btn button:hover {
+    background-color: transparent;
+    font-size: 16px;
+    padding: 9px 20px;
+    font-weight: bolder;;
+    color: #450920;
+    border: #450920 2px solid;}
+
 #buttons {
 display: flex;
 flex-direction: column;
 padding: 20px;
 gap: 20px;
+font-size: 4rem;
+}
+
+#buttons h2{
+  font-size: 2.5rem;
+}
+#buttons span{
+    color: #a53860;
 }
 
 /* Common style for both */
@@ -229,13 +260,13 @@ flex-direction: column;
 
 .heading div{
 color: brown;
-font-size: 1.5rem;
-font-weight: 700;
+font-size: 1.8rem;
+font-weight: 800;
 margin-bottom: 10px;
 text-align: center;
 }
 .heading p{
-font-size: 1rem;
+font-size: 1.1rem;
 color: #450920;
 }
 
