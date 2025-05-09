@@ -395,22 +395,41 @@ nav a:hover{
     margin-left: 170px
   }
   .info h2{
-    margin-left: -3px;
-  }
+    margin-left: -3px; }
 
    
 }
 
 
-@media screen and (max-width: 424px){
+@media screen and (max-width: 430px){
   .main{
       padding: 11px;
     margin-top: 48px;
 max-width: 100vw;
   }
 
-  .main h2{
-    font-size: 2rem;
+  .main h1{
+        font-size: 2.2rem;
+    margin-top: 13px;
+  }
+
+  .team-section{
+    margin-top: 37px;
+  }
+
+  .team-section h2{
+        margin-left: -540px;
+  }
+  .team-section h2 button{
+    font-family: 1.2rem;
+  }
+  .team-grid{
+    margin-left: 85px;
+  }
+
+  .info h2{
+    margin-left: 10px;
+    margin-top: -1px;
   }
 
 }

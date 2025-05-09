@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
 <style> 
 *{
     margin: 0;
@@ -17,7 +18,8 @@ body{
    
     
 }
-.bold{
+
+    .bold{
     font-size: 1.5rem;
     font-weight: 700;
     margin-left: -19px;
@@ -126,6 +128,26 @@ nav a:hover{
 .menu-button{
     display: none;
 }
+
+@media(max-width: 800px){
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebaar{
+        width : 100%
+    }
+    .bold{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
 .help-btn, .help-btn1 {
     background-color: #450920;
     color: #F9DBBD;
@@ -227,6 +249,31 @@ nav a:hover{
     animation: appear2 1s linear forwards;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
+}
+
+@media screen and (max-width: 1026px){
+  .main h1{
+    font-size: 2rem;
+  }
+  .main p{
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .main h1{
+        font-size: 1.6rem;
+
+  }
+}
+
+@media screen and (max-width: 430px){
+  .main h1{
+        font-size: 1.5rem;
+  }
+  .images{
+    margin: 10px;
+  }
 }
 
 
