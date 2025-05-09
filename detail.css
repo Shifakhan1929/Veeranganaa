@@ -119,6 +119,26 @@ nav a:hover{
 .menu-button{
     display: none;
 }
+
+@media(max-width: 800px){
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebaar{
+        width : 100%
+    }
+    .bold{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
 .help-btn, .help-btn1 {
     background-color: #450920;
     color: #F9DBBD;
@@ -202,6 +222,63 @@ line-height: 30px;
     font-weight: bolder;;
     color: #450920;
     border: #450920 2px solid;}
+
+
+    @media screen and (max-width: 1025px){
+
+      .txt button{
+        font-size: 2.2rem;
+        padding: 3px 10px;
+      }
+
+      .main_text p{
+        font-size: 1rem;
+        line-height: 23px;
+      }
+
+      #buttons h2{
+        font-size: 2rem;
+      }
+
+    }
+
+     @media screen and (max-width: 770px){
+   body {
+        /* background-size: 100%; */
+        background-position: right;
+         background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+        
+    }
+    .txt button{
+          font-size: 1.7rem;
+
+    }
+    .main_text p{
+      margin-bottom: -31px;
+
+    }
+    #buttons h2{
+      font-size: 2rem;
+
+     }
+     .emg-button1{
+          display: flex
+;
+    flex-direction: column;
+     }
+
+      .emg-button2{
+          display: flex
+;
+    flex-direction: column;
+     }
+     .heading p{
+      text-align: center;
+     }
+    }
+
 
 #buttons {
 display: flex;
@@ -363,6 +440,41 @@ text-align: center;
     border-radius: 12px;
   }
 
+   @media screen and (max-width: 1025px){
+    .download-content{
+      padding-inline: 50px;
+    }
+
+    .text-section {
+    max-width: 300px;
+  }
+   }
+
+   @media screen and (max-width: 1025px){
+    .app-download{
+          margin-top: -128px;
+
+    }
+      .download-content{
+      padding-inline: 20px;
+    }
+     .text-section {
+    max-width: 300px;
+  }
+  .text-section h2 {
+   font-size: 1.3rem;
+   
+
+   }
+.text-section p {
+    font-size: 0.8rem;
+   
+  }
+
+  .store-buttons button{
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
 
 
 
@@ -391,6 +503,13 @@ text-align: center;
     padding-top: 40px;
 
   }
+
+
+   @media screen and (max-width: 1025px){
+    .container1{
+      padding:10px;
+    }
+   }
 
   
 @keyframes appear9 {
@@ -635,6 +754,22 @@ text-align: center;
 }
 
 
+ @media screen and (max-width: 770px){
+  .location {
+    margin-left: -42px;
+    margin-bottom: -63px;
+}
+.industry{
+
+    margin-top: 88px;
+    margin-right: -48px;
+}
+
+ }
+
+
+
+
 
 
 
@@ -694,26 +829,30 @@ text-align: center;
   
   .map-info h3 {
     margin: 10px 0 5px;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 700;
     color: #450920;
   }
 
   .map-info p {
-    font-size: 14px;
+    font-size: 15px;
     color: #b35275;
   }
   
   .map-help {
     font-size: 14px;
-    text-align: center;
+    text-align:start;
     color: #666;
+    line-height: 20px;
+     font-size: 1rem;
+    color: #a53860;
   }
   
   .map-content {
     width: 70%;
     padding: 0px 30px;
     margin-top: -18px;
+   
     
   }
   
@@ -793,6 +932,48 @@ text-align: center;
     background: #2d87f0;
     color: white;
   }
+
+
+   @media screen and (max-width: 1025px){
+    .map-sidebar{
+      max-height: 80vh;
+    }
+    .map-container{
+      max-height: 85vh;
+
+    }
+   }
+
+   @media screen and (max-width: 770px){
+
+    .map-sidebar{
+      max-height: 65vh;
+    }
+
+    .map-sidebar{
+      padding: 10px;
+    }
+
+    .map-info h3{
+      font-size: 1.2rem;
+    }
+
+    .map-info p{
+      font-size: 0.8rem;
+        
+    }
+
+    .map-help{
+      margin-left: 23px;
+    }
+    .map-help ul li{
+      font-size: 0.8rem;
+    }
+    .map-help small{
+      font-size: 0.5rem;
+    }
+
+   }
 
 
   
