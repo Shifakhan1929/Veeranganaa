@@ -261,3 +261,34 @@ nav a:hover{
   /* animation-timeline: view(); */
   animation-range: entry 0% cover 40%;
 }
+
+
+@media screen and (max-width: 1024px){
+     .hero{
+      margin-top: -50
+     }
+     .hero-text h1{
+        font-size: 3rem;
+        margin-top: -25px;
+     }
+
+     .hero-text h3{
+          margin-top: -5px;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+     }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    
+}
+
+
+@media screen and (max-width: 424px){
+
+    
+
+    }
+  
