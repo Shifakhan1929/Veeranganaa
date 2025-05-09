@@ -1,0 +1,15 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.WBb=class{constructor(a){this.ek=a}};
+}catch(e){_._DumpException(e)}
+try{
+_.r("aLUfP");
+var YBb;_.XBb=!1;YBb=function(){return _.ta()&&_.ie.tG()&&!navigator.userAgent.includes("GSA")};
+_.io(_.JWa,class extends _.go{static Ra(){return{service:{window:_.ho}}}constructor(a){super();this.window=a.service.window.get();this.Ba=this.ek();this.Aa=window.orientation;this.oa=()=>{const b=this.ek();var c=this.xSb()&&Math.abs(window.orientation)===90&&this.Aa===-1*window.orientation;this.Aa=window.orientation;if(b!==this.Ba||c){this.Ba=b;for(const d of this.listeners){c=new _.WBb(b);try{d(c)}catch(e){_.ea(e)}}}};this.listeners=new Set;this.window.addEventListener("resize",this.oa);this.xSb()&&
+this.window.addEventListener("orientationchange",this.oa)}addListener(a){this.listeners.add(a)}removeListener(a){this.listeners.delete(a)}ek(){if(YBb()){var a=_.Ql(this.window);a=new _.Hl(a.width,Math.round(a.width*this.window.innerHeight/this.window.innerWidth))}else a=this.Ic()||(_.ta()?YBb():this.window.visualViewport)?_.Ql(this.window):new _.Hl(this.window.innerWidth,this.window.innerHeight);return a.height<a.width}destroy(){this.window.removeEventListener("resize",this.oa);this.window.removeEventListener("orientationchange",
+this.oa)}Ic(){return _.XBb}xSb(){return"orientation"in window}});
+_.XBb=!0;
+_.v();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.

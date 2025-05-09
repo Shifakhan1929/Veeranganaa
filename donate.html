@@ -130,7 +130,30 @@ nav a:hover{
 
 .menu-button{
     display: none;
-}.help-btn, .help-btn1 {
+}
+
+@media(max-width: 800px){
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebaar{
+        width : 100%
+    }
+    .bold{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
+
+
+.help-btn, .help-btn1 {
   background-color: transparent;
   color: #ca628a;
     padding: 10px 20px;
@@ -241,6 +264,11 @@ nav a:hover{
   /* animation-timeline: view(); */
   animation-range: entry 0% cover 40%;
 }
+
+
+
+
+  
 
     
 </style>

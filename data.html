@@ -149,8 +149,8 @@ nav a:hover{
     .main{
         margin-top: 80px;
         padding: 20px;
-        background-color: #a53860;
-        color: #F9DBBD;
+        background-color: #F9DBBD;
+        color: #450920;
         font-size: 1.2rem;
         line-height: 1.6;
         max-width: 90vw;
@@ -164,7 +164,7 @@ nav a:hover{
         margin-top: 10px;
         font-size: 1.2rem;
         
-        color: #fff;
+        color: #a53830;
 
     }
     .images{
@@ -210,6 +210,28 @@ nav a:hover{
   animation-range: entry 0% cover 40%;
 }
 
+
+@keyframes appear2 {
+  from{
+    opacity: 1;
+    transform: translateX(-100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+   
+  }
+}
+
+.images img {
+    animation: appear2 1s linear forwards;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+
+  
+
 </style>
     
 
@@ -225,10 +247,10 @@ nav a:hover{
     </div>
 
     <div class="images">
-        <img src="image/bg/p3.jpg" alt="chart3">
-        <img src="image/bg/p1.jpg" alt="">
-        <img src="image/bg/p2.jpg" alt="">
-        <img src="image/bg/p4.jpg" alt="">
+        <img src="image/sh4.jpg" alt="chart3">
+        <img src="image/sh1.jpg" alt="">
+        <img src="image/sh2.jpg" alt="">
+        <img src="image/sh3.jpg" alt="">
        
         
      
