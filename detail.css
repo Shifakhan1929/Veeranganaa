@@ -280,6 +280,77 @@ line-height: 30px;
     }
 
 
+     @media screen and (max-width:440px){
+   .text{
+    margin-top: 44px;
+    
+min-height: 100vh;
+background-image: url(image/bg/resp2.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+  .main_text{
+display: flex;
+flex-direction: column;
+justify-content: end;
+align-items:center ;
+margin-left: -35px;
+   }
+   .txt button{
+        margin-top: 248px;
+    margin-left: -36px;
+    margin-bottom: -32px;
+   }
+
+   .main_text p{
+      max-width: 90vw;
+      font-size: 0.8rem;
+}
+
+.download-btn button{
+  margin-bottom: 25px;
+  font-size: 1rem;
+     }
+
+     #buttons {
+
+padding: 5px;
+gap: 5px;
+font-size: 2rem;
+}
+
+     .lead {
+    font-size: 1.7rem;
+  }
+
+  .emg-button1{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+              margin-left: 47px;
+             
+
+     }
+
+      .emg-button2{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+           margin-left: 47px;
+     }
+
+     .emg-button1 img,
+.emg-button2 img {
+width: 261px;
+}
+    }
+
+
 #buttons {
 display: flex;
 flex-direction: column;
@@ -361,6 +432,8 @@ margin-bottom: 30px;
 margin-top: 20px;
 text-align: center;
 }
+
+
 
 
 
@@ -475,6 +548,7 @@ text-align: center;
     font-size: 1rem;
     padding: 10px 20px;
   }
+}
 
 
 
@@ -766,6 +840,30 @@ text-align: center;
 }
 
  }
+
+
+ @media screen and (max-width: 440px){
+  .headline{
+    font-size: 1.8rem
+  }
+
+  .emotion{
+        margin-left: -76px;
+    margin-top: -42px;
+  }
+  .value{
+    font-size: 0.5rem;
+  }
+  .location{
+        margin-bottom: -89px;
+
+  }
+
+  .industry{
+        margin-right: -68px;
+
+  }
+}
 
 
 
