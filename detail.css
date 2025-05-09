@@ -549,7 +549,32 @@ text-align: center;
     padding: 10px 20px;
   }
 }
+@media screen and (max-width: 440px){
 
+
+.download-content {
+  display: flex;
+flex-direction: column-reverse;
+}
+
+.image-section img {
+    max-height: 50vw  ;
+        margin-top: 79px;
+
+   
+
+   }
+
+   .text-section{
+    margin-top: -23px
+   }
+
+   .text-section h2{
+    /* margin-top: -23px; */
+    padding: 8px;
+
+   }
+}
 
 
 
@@ -585,6 +610,21 @@ text-align: center;
     }
    }
 
+   @media screen and (max-width: 440px){
+    .container1{
+      flex-direction: column;
+      padding: 13px;
+    }
+    .left-arc{
+      margin-bottom: -50px;
+    }
+    .left-arc h2{
+      font-size: 1.5rem;
+      margin-top: -322px;
+
+    }
+   }
+
   
 @keyframes appear9 {
   from{
@@ -599,7 +639,7 @@ text-align: center;
 }
 
 .left-arc {
-    animation: appear9 0.5s linear forwards;
+    animation: appear9 0.1s linear forwards;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
@@ -878,6 +918,7 @@ text-align: center;
   .map-container {
     display: flex;
     height: 100vh;
+
    
   }
   
@@ -1073,6 +1114,39 @@ text-align: center;
 
    }
 
+   @media screen and (max-width: 440px){
+
+    .map-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 147px;
+    
+    }
+
+     .map-sidebar {
+    width: 100%;
+    /* background: #F9DBBD;
+    padding: 40px 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   
+  }
+
+  .map-form{
+    width: 100%;
+    margin-left: -10px;
+  }
+  .map-view img{
+    width: 90vw;
+    margin-left: -20px;
+  }
+
+   }
+
 
   
   
@@ -1194,6 +1268,14 @@ text-align: center;
     border: 2px solid #450920;
     font-size: 16px;
     font-weight: 700;
+  }
+
+  @media screen and (max-width: 440px){
+    .contact-image{
+display: none;
+    }
+   
+  
   }
   
   
@@ -1348,6 +1430,30 @@ text-align: center;
   
   .credit img {
     height: 20px;
+  }
+
+
+  @media screen and (max-width: 440px){
+.footer-container{
+  font-size: 0.7rem;
+}
+    .footer-column{
+      font-size: 0.8rem;
+    margin-top: -25px;
+    text-align: center;
+    }
+    
+
+    .footer-links{
+      display: none;
+    }
+    .emergency-bar{
+      display: none;
+    }
+    .footer-bottom{
+      margin-bottom: 16px;
+    }
+    
   }
   
 
