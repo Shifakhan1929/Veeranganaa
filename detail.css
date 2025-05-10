@@ -300,7 +300,7 @@ align-items:center ;
 margin-left: -35px;
    }
    .txt button{
-        margin-top: 248px;
+        margin-top: 260px;
     margin-left: -36px;
     margin-bottom: -32px;
    }
@@ -566,14 +566,24 @@ flex-direction: column-reverse;
    }
 
    .text-section{
-    margin-top: -23px
+    margin-top: -23px;
+    max-width: 500px;
    }
 
    .text-section h2{
     /* margin-top: -23px; */
-    padding: 8px;
+    padding: 3px -10px;
 
    }
+   .reviews{
+    display: none;
+   }
+}
+
+@media screen and (max-width: 380px){
+  .text-section h2{
+    font-size: 1rem;
+  }
 }
 
 
@@ -1119,8 +1129,18 @@ flex-direction: column-reverse;
     .map-container {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 147px;
+    margin-top: 130px;
     
+    }
+    .map-steps{
+      display: none;
+    }
+    .map-info {
+      margin-bottom: 49px;
+    }
+    .map-info img{
+      width: 55px;
+    margin-bottom: -1px;
     }
 
      .map-sidebar {
@@ -1133,16 +1153,17 @@ flex-direction: column-reverse;
     border-right: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 10px;
+    margin-top: -22px;
    
   }
 
   .map-form{
-    width: 100%;
+    width: 90%;
     margin-left: -10px;
   }
   .map-view img{
     width: 90vw;
-    margin-left: -20px;
+    margin-left: -10px;
   }
 
    }
@@ -1451,7 +1472,7 @@ display: none;
       display: none;
     }
     .footer-bottom{
-      margin-bottom: 16px;
+      padding-bottom: 16px;
     }
     
   }
