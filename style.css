@@ -277,18 +277,11 @@ nav a:hover{
     font-size: 1.3rem;
     margin-bottom: 12px;
      }
+     .hero-text h2{
+      font-size: 1.7rem;
+    margin-top: 16px;
+     }
     
 }
 
-@media screen and (max-width: 768px) {
 
-    
-}
-
-
-@media screen and (max-width: 424px){
-
-    
-
-    }
-  
